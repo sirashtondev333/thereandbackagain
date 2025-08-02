@@ -49,9 +49,13 @@ width: 10em;
 }
 
 .topBar {
-    float: right;
-    margin-right: 55px;
-  /*  background-color: #a3f29e; */
+    display: flex;
+    outline: 1px solid red;
+    align-items: center;
+    justify-content: end;
+    /* float: right;
+     margin-right: 55px; 
+    background-color: #a3f29e; */
 }
 
 button {
@@ -96,14 +100,7 @@ button {
     margin-bottom: 2em;
 }
 
-Ask someone why image moves lower rather than the button and whatnot scooting up. */
-   
-.topBar {
-        margin-left: 20em;
-     /*   margin-top: 2em; */
-    }
 
-/*
 span {
 color: #5C4033; 
 }
