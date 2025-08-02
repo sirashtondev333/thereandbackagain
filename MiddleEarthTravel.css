@@ -145,23 +145,25 @@ h3 {
     display: inline-block;
 }
 
-.fireworks {
-    height: 9em;
-    width: 13em;
-    margin-left: 25%;
+.container {
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
-.horsebackRiding {
-    height: 9em;
-    width: 13em;
-    margin-left: 25%;
-}
 
-.rivendell {
+.experiences img {
     display: block;
     height: 9em;
     width: 13em;
-    margin-left: 70%;
+}
+
+.experience {
+    display: flex;
+    width: 40%;
+    outline: 1px solid red;
 }
 
 .potatoes, .prancingPony {
@@ -172,15 +174,6 @@ h3 {
 .blueSec {
     background-image: url(Images/tree.jpg);
 }
-
-.moria {
-    display: block;
-    height: 9em;
-    width: 13em;
-    margin-left: 70%;
-    margin-bottom: 9em;
-}
-
 
 .worldMap {
     display: block;
