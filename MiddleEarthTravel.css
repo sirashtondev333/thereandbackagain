@@ -50,7 +50,6 @@ width: 10em;
 
 .topBar {
     display: flex;
-    outline: 1px solid red;
     align-items: center;
     justify-content: end;
     /* float: right;
@@ -160,7 +159,7 @@ h3 {
 .experience {
     display: flex;
     width: 40%;
-    outline: 1px solid red;
+    background: white;
 }
 
 .potatoes, .prancingPony {
