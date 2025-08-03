@@ -9,17 +9,17 @@
 }
 
 @font-face {
-    font-family: "nordicrunes";
+    font-family: "nordicRunes";
     src:url("Fonts/AnglosaxonRunes.ttf");
 }
 
 @font-face {
-    font-family: "elvishtwo";
+    font-family: "elvishTwo";
    src:url("Fonts/Elvish.ttf");
 }
 
 @font-face {
-    font-family: "bilbothin";
+    font-family: "bilboThin";
     src:url("Fonts/BilboHandFine.ttf");
 }
 
@@ -57,6 +57,12 @@ width: 10em;
     background-color: #a3f29e; */
 }
 
+.topBar span {
+    font-family: "bilboBold";
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
 button {
     background-color: #a3f29e;
     font-family: "titlefont";
@@ -68,15 +74,7 @@ input {
     color: white;
     font-family: "titlefont";
 }
-/*
-h1 {
-    position: absolute;
-}
 
-
-h1, h2 {
-color: #228b22", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} */
 
 .heading, h1 {
    /* color: #5C4033; */
@@ -116,17 +114,9 @@ p {
 
 .bigPic {
 display: block;
-/*margin-left: auto;
-margin-right: auto;
-height: 45em;
-width: 92em; */
 width: 100%;
 margin: 0;
 }
-
-/* to top can be used to go from bottom up, there's multiple different kinds.
-Look into them and make a quick decision! Start with green, off white/silvery,
-maybe the blue then? Or reverse those last two. */
 
 .blueSec li {
     font-family: Tangerine;
@@ -134,7 +124,7 @@ maybe the blue then? Or reverse those last two. */
 }
 
 .blueSec li span i {
-color: #f5f568;
+    color: #f5f568;
 }
 
 h3 {
@@ -149,34 +139,57 @@ h3 {
     flex-wrap: wrap;
 }
 
+.wonder {
+    display: block;
+    margin-top: 5em;
+    margin-left: 5.5em;
+    font-family: "titlefont";
+    font-size: 2.5em;
+
+}
 
 .experiences img {
     display: block;
     height: 9em;
     width: 13em;
+    border-radius: 5px;
 }
 
 .experience {
     display: flex;
     width: 40%;
     background: white;
+    padding-left: 10em;
 }
+
+.experience h3 {
+    padding-left: .7em;
+}
+
+/* maybe ask someone how to uncenter the h3s so each word isn't broken up.
+Also ask someone how to make only background opaque rather than the world map?
+Consider applying this to the whole background color, even if you'll most likely
+make the wood background at the bottom a different color. */
 
 .potatoes, .prancingPony {
     width: 13em;
     height: 11em;
+    border-radius: 5px;
 }
 
 .blueSec {
-    background-image: url(Images/tree.jpg);
+    background-image: url(Images/wood.jpg);
+    opacity: 0.33;
 }
 
 .worldMap {
     display: block;
+    margin-top: 20em;
     margin-left: auto;
     margin-right: auto;
     width: 52em;
     align-content: center;
+    opacity: 1;
 }
 
 .connect{
