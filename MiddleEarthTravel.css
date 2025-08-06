@@ -118,6 +118,11 @@ width: 100%;
 margin: 0;
 }
 
+.topBar, .experiences {
+    background-image: url('/Images/bush1');
+    opacity: 90%;
+}
+
 .blueSec li {
     font-family: Tangerine;
     color: #f5f568;
@@ -182,6 +187,14 @@ make the wood background at the bottom a different color. */
     opacity: 0.33;
 }
 
+.blueSec h3 {
+    display: block;
+    font-size: 3.5em;
+    font-family: "titlefont";
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
 .worldMap {
     display: block;
     margin-top: 20em;
@@ -192,7 +205,7 @@ make the wood background at the bottom a different color. */
     opacity: 1;
 }
 
-.connect{
+.connect {
     font-family: "titlefont"; 
      color: #f5f568;
 }
@@ -240,4 +253,6 @@ border-top: 1px solid #888;
 
  /*   the hex code for forest green, I think. Definitely a green. #228b22;
     The hex code for dark brown is #5C4033 and the hex code for sage
-    green is */
+    green is 
+    
+    Consider metallic accents? Look to natural motifs.*/
