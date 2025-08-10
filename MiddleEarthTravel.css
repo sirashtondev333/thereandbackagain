@@ -40,7 +40,7 @@
 }
 
 body {
-background: linear-gradient(to bottom, #a3f29e, #a3f29e, #66c0e4, #f3f4f6);
+background: #a3f29e;
 }
 
 .logo {
@@ -120,7 +120,6 @@ margin: 0;
 
 .topBar, .experiences {
     background-image: url('/Images/bush1');
-    opacity: 90%;
 }
 
 .blueSec li {
@@ -131,10 +130,11 @@ margin: 0;
 .blueSec li span i {
     color: #f5f568;
 }
-
+/*
 h3 {
     display: inline-block;
 }
+*/
 
 .container {
     width: 80%;
@@ -188,12 +188,18 @@ make the wood background at the bottom a different color. */
 }
 
 .blueSec h3 {
-    display: block;
+    display: block; 
     font-size: 3.5em;
     font-family: "titlefont";
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 30%;
+    margin-right: 20%;
 }
+
+.blueSec img {
+    height: 8em;
+    width: 10em;
+}
+/* add margin upper to at least top images to give it distance between that and plan your journey. */
 
 .worldMap {
     display: block;
@@ -202,7 +208,6 @@ make the wood background at the bottom a different color. */
     margin-right: auto;
     width: 52em;
     align-content: center;
-    opacity: 1;
 }
 
 .connect {
