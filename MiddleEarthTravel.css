@@ -121,7 +121,7 @@ margin: 0;
 .topBar, .experiences {
     background-image: url('/Images/bush1');
 }
-
+/*
 .blueSec li {
     font-family: Tangerine;
     color: #f5f568;
@@ -130,7 +130,7 @@ margin: 0;
 .blueSec li span i {
     color: #f5f568;
 }
-/*
+
 h3 {
     display: inline-block;
 }
@@ -176,15 +176,29 @@ Also ask someone how to make only background opaque rather than the world map?
 Consider applying this to the whole background color, even if you'll most likely
 make the wood background at the bottom a different color. */
 
+.events {
+    font-family: "titlefont";
+    display: block;
+    margin-left: 40%;
+    margin-right: 35%;
+    font-size: 1.3em;
+}
+
 .potatoes, .prancingPony {
     width: 13em;
     height: 11em;
-    border-radius: 5px;
+    border-radius: 5px;  
+    /*margin-left: 30%;
+    margin-right: 20%; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 
-.blueSec {
+    .blueSec {
     background-image: url(Images/wood.jpg);
-    opacity: 0.33;
+    color: black;
 }
 
 .blueSec h3 {
@@ -196,10 +210,10 @@ make the wood background at the bottom a different color. */
 }
 
 .blueSec img {
-    height: 8em;
-    width: 10em;
+    width: 12em;
 }
-/* add margin upper to at least top images to give it distance between that and plan your journey. */
+
+/* add margin upper to at least top images to give it distance between that and plan your journey
 
 .worldMap {
     display: block;
@@ -209,6 +223,7 @@ make the wood background at the bottom a different color. */
     width: 52em;
     align-content: center;
 }
+    */
 
 .connect {
     font-family: "titlefont"; 
@@ -225,14 +240,18 @@ border-top: 1px solid #888;
 
 .socialMedia i {
     font-size: 1.5em;
-    color: #f5f568;
+    color: whitesmoke;
 }
 
 .end li{
     list-style-type: none;
     font-family: "titlefont";
     margin-left: 60em;
-    color: #f5f568;
+    color: whitesmoke;
+}
+
+.connect {
+    border-top: red;
 }
 
 .newsLetter { 
@@ -243,18 +262,17 @@ border-top: 1px solid #888;
     display: block;
     margin-left: 20em;
     font-family: Tangerine;
-    font-size: 600;
-    color:#f5f568;
+    color: whitesmoke;
 }
 
 .runes {
     text-align: center;
     font-family: "nordicrunes";
     font-size: 1.3em;
-    color: #f5f568;
+    color: whitesmoke;
 }
 
-/* Ask soemone how to make font smaller rather than thinner or bolder. */
+/* Ask someone how to make font smaller rather than thinner or bolder. */
 
  /*   the hex code for forest green, I think. Definitely a green. #228b22;
     The hex code for dark brown is #5C4033 and the hex code for sage
