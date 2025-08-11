@@ -163,12 +163,14 @@ h3 {
 .experience {
     display: flex;
     width: 40%;
-    background: white;
+    background:#a3f29e;
+
     padding-left: 10em;
 }
 
-.experience h3 {
+.experience, h3 {
     padding-left: .7em;
+    font-family: "titlefont";
 }
 
 /* maybe ask someone how to uncenter the h3s so each word isn't broken up.
