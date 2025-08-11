@@ -70,8 +70,7 @@ button {
 }
 
 input {
-    background-image: url(Images/wood.jpg);
-    color: white;
+    color: aliceblue;
     font-family: "titlefont";
 }
 
@@ -173,11 +172,6 @@ h3 {
     font-family: "titlefont";
 }
 
-/* maybe ask someone how to uncenter the h3s so each word isn't broken up.
-Also ask someone how to make only background opaque rather than the world map?
-Consider applying this to the whole background color, even if you'll most likely
-make the wood background at the bottom a different color. */
-
 .events {
     font-family: "titlefont";
     display: block;
@@ -198,12 +192,12 @@ make the wood background at the bottom a different color. */
     flex-direction: row;
 }
 
-    .blueSec {
+    .wood {
     background-image: url(Images/wood.jpg);
     color: black;
 }
 
-.blueSec h3 {
+.wood .plan {
     display: block; 
     font-size: 3.5em;
     font-family: "titlefont";
@@ -211,7 +205,12 @@ make the wood background at the bottom a different color. */
     margin-right: 20%;
 }
 
-.blueSec img {
+.wood h3 {
+    display: block;
+    font-size: 1.5em;
+}
+
+.wood img {
     width: 12em;
 }
 
