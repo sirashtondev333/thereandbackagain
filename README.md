@@ -1,3 +1,14 @@
+TOMORROW:
+Flex the trending and upcoming events and label actually like what they are.
+After flexing format the text accordingly and then experiment with title font.
+
+Then work on how to get around, how to get there, and accomodation formatting. Decide image size during formatting.
+Go through history and just save icons with links to the site rather than true saving.
+Maybe ask Vish for help on the lines in the footer.
+
+Figure out Smeagol Sushi image. Consider border for picture that's like the hero. Link other images that you'll want as it like, slideshows first.
+
+
 # thereandbackagain 
 
 Netlify link: https://thereandbackagain.netlify.app/
