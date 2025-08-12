@@ -67,6 +67,7 @@ button {
     background-color: #a3f29e;
     font-family: "titlefont";
     border: none;
+    margin-right: 2em;
 }
 
 input {
@@ -190,6 +191,11 @@ h3 {
     align-items: center;
     display: flex;
     flex-direction: row;
+}
+
+.campIcon, .innIcon, .castleIcon {
+    width: 3em;
+    height: 4em;
 }
 
     .wood {
