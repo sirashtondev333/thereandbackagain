@@ -64,11 +64,13 @@ width: 10em;
 }
 
 button {
-    background-color: #a3f29e;
+    background-color: bisque;
     font-family: "titlefont";
     border: none;
     margin-right: 2em;
 }
+/*Make the area around the button tattered like the Ireland image, make it look like a piece of paper. 
+Maybe use a background image from a scroll or old paper. And then potentially pick a different font that looks inky, like calligraphy.*/
 
 input {
     color: aliceblue;
@@ -234,20 +236,22 @@ h3 {
 
 .connect {
     font-family: "titlefont"; 
-     color: #f5f568;
+     color: whitesmoke;
 }
 
 .socialMedia {
     border-bottom: 1px solid #888;
 }
 
-.end {
+.contact {
 border-top: 1px solid #888;
 }
 
 .socialMedia i {
     font-size: 1.5em;
     color: whitesmoke;
+    margin-left: .2em;
+    margin-bottom: 2em;
 }
 
 .end li{
