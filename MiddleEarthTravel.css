@@ -48,7 +48,7 @@ height: 7em;
 width: 10em;
 }
 
-.topBar {
+* .topBar {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -76,7 +76,7 @@ input {
     color: aliceblue;
     font-family: "titlefont";
 }
-
+*
 
 .heading, h1 {
    /* color: #5C4033; */
@@ -108,16 +108,27 @@ p {
     color:#5C4033;
 } */
 
-.bigPicDiv {
+.slideshow {
+    background: linear-gradient()
+    display: flex;
+    justify-content: center;
+}
+
+
+.slideOne {
     position: relative;
     padding-left: 2.6em;
 }
 
 
-.bigPic {
+.slideOne {
 display: block;
 width: 100%;
 margin: 0;
+}
+
+.slider {
+
 }
 
 .topBar, .experiences {
@@ -173,6 +184,11 @@ h3 {
 .experience, h3 {
     padding-left: .7em;
     font-family: "titlefont";
+}
+
+.experience p {
+    font-family: Tangerine;
+    color: red;
 }
 
 .events {
