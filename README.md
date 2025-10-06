@@ -18,9 +18,10 @@ To do for lotr:
 15. Look at your palette and figure out what color you actually want words primarily and whether black and white are truly a part of that.
 16. Review the actual content and if the wording is like cheesy. Because reading it now a lad is thinking that may the case, that it may be hammy.
 17. Consider a whimsical mushroom in the footer or even that really cute mushroom stump picture you have saved here.
-18. Optional but add a modal floating audio player and look for an official Lotr playlist instead of using your own spotify.
+18. Optional but add a modal floating audio player and look for an official Lotr playlist instead of using your own spotify. HALF done
 19. Make sure any mushroom images you have match the palette, or note that as you look. If not consider what tinting would be most helpful.
 20. Fix the powerpoint slideshow dude????
+21. Consider making the mushroom a music player, or putting it inside of an ent. If there's some relevant musical instrument or character to add find a way to incorporate it in.
 -----------------------------------------
 ----------------------------
 
