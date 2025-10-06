@@ -14,21 +14,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
    
     <script src="https://kit.fontawesome.com/144e7dcd42.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href= "./MiddleEarthTravel.css" />
+    <link rel="stylesheet" href= "./Index.css" />
 
     <title>Travel Brochure Middle Earth</title>
 </head>    
 <body class="body"> 
-
-        <!--
-        Use for backgrounds and large areas. Forest green can establish a calming, 
-        nature-inspired environment in apps promoting wellness or outdoor activities. Ensure sufficient contrast for
-         text readability by testing with a contrast checker. Pair with light neutrals. Complement forest green with
-        light neutrals like beige or soft grey to maintain readability and a sense of balance.
-
-        Soft gold (#D4AF37) introduces a touch of luxury,
-        creating a harmonious balance with forest green's understated elegance. -->
-
 <div class="topBar">
     <section class="buttons">
         <button> Where to Go </button>
@@ -45,27 +35,28 @@
 </div>
 <div class="heading"> </div>
     <h1> Your adventure begins now. </h1>
+    <!--
 <div class="slideshow">
     <div class="slider">
         <div class="slides">
             <div class="slides_One">
-                <img class="slideOne" src="/Images/bigpic2.jpg">
+                <img class="slide" id="slideOne" src="/Images/bigpic2.jpg">
             </div>
             <div class="slides_Two">
-                <img class="slideTwo" src="Images/Mirkwood4.jpg">
+                <img class="slide" id="slideTwo" src="Images/Mirkwood4.jpg">
             </div>
             <div class="slides_Three">
-                 <img class="slideThree" src="Images/laketown2.jpg">
+                 <img class="slide" id="slideThree" src="Images/laketown2.jpg">
             </div>
-            <div class="slides_Four">
-                <img class="slideFour" src="Images/gondorgate"> 
+            <div id="slides_Four">
+                <img class="slide" id="slideFour" src="Images/gondorgate"> 
             </div>
-            <div class="slides_Five">
-                <img class="slideFive" src="Images/rohanVillage2.jpg">
+            <div id="slides_Five">
+                <img class="slide" id="slideFive" src="Images/rohanVillage2.jpg">
 </div>
 </div>
 </div>
-<!--<i class="fa-solid fa-magnifying-glass"></i> -->
+<i class="fa-solid fa-magnifying-glass"></i> -->
 
 Laketown: Visit Laketown /see how its flourished since its overdue recovery from the terror of Smaug and taste some of the finest seafood Middle Earth has to offer.
 Mirkwood: Explore the grand forest of Mirkwood and see the full splendor of elfin food, clothing, elfin traditions and culture. 
@@ -174,6 +165,29 @@ Rivendell at Elrond's hotel. </p>
 </footer>
     </body>
     
+
+        <div class="open-modal-btn-wrapper">
+        <button class="open-modal-btn">
+            Music
+        </button>
+    </div>
+
+    <div class="modalcontent">
+        <div class="modal-wrapper">
+            <div class="closebuttonnwrapper">
+                <button class="closebutton">
+                    Stop Playing
+                </button>
+            </div>
+            <h2>Soundtrack</h2>
+            <div class="modal-content">
+                Greetings from GeeksforGeeks
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
 
     <!--Ask someone how to put space between human icon and sign in.
      Ask someone why I can't move the tree logo? 
