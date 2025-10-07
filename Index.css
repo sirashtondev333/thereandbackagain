@@ -77,7 +77,13 @@ height: 7em;
 width: 10em;
 }
 
-* .topBar {
+.topbar {
+    color: #57cc99;
+    border: 1px solid red;
+    background-image: url('/Images/oldpaper');
+}
+
+* .topbar {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -86,7 +92,7 @@ width: 10em;
     background-color: #a3f29e; */
 }
 
-.topBar span {
+.topbar span {
     font-family: "bilboBold";
     font-size: 1.5em;
     font-weight: 600;
