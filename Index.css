@@ -81,7 +81,7 @@ body {
 .topbar {
     background-color: #a3f29e;
     border: 1px solid red;
-    background-image: url('/Images/oldpaper');
+    background-image: url('Images/oldpaper');
 }
 
 .topbar span {
@@ -194,11 +194,11 @@ p {
 
 
 .topBar {
-    background-image: url('/Images/leaves4.jpg');
+    background-image: url('Images/leaves4.jpg');
 }
 
 .experiences {
-    background-image: url('/Images/leaves4.jpg');
+    background-image: url('Images/leaves4.jpg');
 }
 /*
 .blueSec li {
@@ -318,20 +318,20 @@ h3 {
 
 .connect {
     font-family: "titlefont"; 
-    color: whitesmoke;
+    color: #093824;
 }
 
 .socialMedia {
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid #513b3c;
 }
 
 .contact {
-    border-top: 1px solid #888;
+    border-top: 1px solid #513b3c;
 }
 
 .socialMedia i {
     font-size: 1.5em;
-    color: whitesmoke;
+    color: #093824;
     margin-left: .2em;
     margin-bottom: 2em;
 }
@@ -362,7 +362,7 @@ h3 {
     text-align: center;
     font-family: "nordicrunes";
     font-size: 1.3em;
-    color: whitesmoke;
+    color: #513b3c;
 }
 
 /* Palette: 
