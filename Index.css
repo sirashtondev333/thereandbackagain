@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: "elvishTwo";
-   src:url("Fonts/Elvish.ttf");
+    src:url("Fonts/Elvish.ttf");
 }
 
 @font-face {
@@ -35,33 +35,32 @@
 
 
 @font-face {
-font-family: "Dragonfire";
-src:url("Fonts/DragonFire-K7voy.ttf");
+    font-family: "Dragonfire";
+    src:url("Fonts/DragonFire-K7voy.ttf");
 }
 
 @font-face {
-font-family: "Aniron";
-src:url("Fonts/aniron.ttf");
+    font-family: "Aniron";
+    src:url("Fonts/aniron.ttf");
 }
 
 @font-face {
-font-family: "MorrisRoman";
-src:url("Fonts/MorrisRomanBlack.ttf");
+    font-family: "MorrisRoman";
+    src:url("Fonts/MorrisRomanBlack.ttf");
 }
 
 @font-face {
-font-family: "ReynoldsChancery";
-src:url("Fonts/ReynoldsChancery-Gq8O.ttf)";
+    font-family: "ReynoldsChancery";
+    src:url("Fonts/ReynoldsChancery-Gq8O.ttf)";
 }
 
+/* Try to figure out why this is a thing and ask Vish if need be. */
 @font-face {
-font-family: "Albertus";
-src:url("Fonts/AlbertusMTStd.otf");
+    font-family: "Albertus";
+    src:url("Fonts/AlbertusMTStd.otf");
 }
 
-
-
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0; 
@@ -78,13 +77,9 @@ body {
 }
 
 .topbar {
-    color: #57cc99;
+    background-color: #a3f29e;
     border: 1px solid red;
     background-image: url('/Images/oldpaper');
-}
-
-* .topbar {
-     background-color: #a3f29e;
 }
 
 .topbar span {
@@ -368,10 +363,8 @@ h3 {
     color: whitesmoke;
 }
 
-/* Ask someone how to make font smaller rather than thinner or bolder. */
+/* Palette: 
 
- /*   the hex code for forest green, I think. Definitely a green. #228b22;
-    The hex code for dark brown is #5C4033 and the hex code for sage
-    green is 
-    
-    Consider metallic accents? Look to natural motifs.*/
+
+
+*/
