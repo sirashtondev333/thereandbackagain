@@ -51,10 +51,9 @@
 
 @font-face {
     font-family: "ReynoldsChancery";
-    src:url("Fonts/ReynoldsChancery-Gq8O.ttf)";
+    src:url("Fonts/ReynoldsChancery-Gq8O.ttf");
 }
 
-/* Try to figure out why this is a thing and ask Vish if need be. */
 @font-face {
     font-family: "Albertus";
     src:url("Fonts/AlbertusMTStd.otf");
@@ -73,9 +72,14 @@ body {
     background: #a3f29e;
 }
 
+/* Why didn't the border work? Why is the flex barely doing anything? */
 .logo {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
     width: 10em;
     height: 7em;
+    border: solid 1px blueviolet;
 }
 
 .topbar {
@@ -93,7 +97,7 @@ body {
 button {
     background-color: bisque;
     font-family: "titlefont";
-    border: none;
+    border: solid 2px orange;
     margin-right: 2em;
 }
 /*Make the area around the button tattered like the Ireland image, make it look like a piece of paper. 
@@ -103,7 +107,7 @@ input {
     color: aliceblue;
     font-family: "titlefont";
 }
-*
+
 
 .heading, h1 {
    /* color: #5C4033; */
@@ -200,6 +204,7 @@ p {
 .experiences {
     background-image: url('Images/leaves4.jpg');
 }
+
 /*
 .blueSec li {
     font-family: Tangerine;
@@ -225,17 +230,17 @@ h3 {
 
 .wonder {
     display: block;
-    margin-top: 5em;
-    margin-left: 5.5em;
+    margin-top: 5rem;
+    margin-left: 5.5rem;
     font-family: "titlefont";
-    font-size: 2.5em;
+    font-size: 2.5rem;
 
 }
 
 .experiences img {
     display: block;
-    height: 9em;
-    width: 13em;
+    height: 9rem;
+    width: 13rem;
     border-radius: 5px;
 }
 
@@ -243,17 +248,17 @@ h3 {
     display: flex;
     width: 40%;
     color: #c7f9cc;
-    padding-left: 10em;
+    padding-left: 10rem;
 }
 
 .experience, h3 {
-    padding-left: .7em;
+    padding-left: .7rem;
     font-family: "titlefont";
 }
 
 .experience p {
     font-family: Tangerine;
-    color: red;
+    color: #093824;
 }
 
 .events {
@@ -261,12 +266,12 @@ h3 {
     display: block;
     margin-left: 40%;
     margin-right: 35%;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 .potatoes, .prancingPony, .fangorn, .hotel{
-    width: 13em;
-    height: 11em;
+    width: 13rem;
+    height: 11rem;
     border-radius: 5px;  
     /*margin-left: 30%;
     margin-right: 20%; */
@@ -289,7 +294,7 @@ h3 {
 
 .wood .plan {
     display: block; 
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-family: "titlefont";
     margin-left: 30%;
     margin-right: 20%;
@@ -297,11 +302,11 @@ h3 {
 
 .wood h3 {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .wood img {
-    width: 12em;
+    width: 12rem;
 }
 
 /* add margin upper to at least top images to give it distance between that and plan your journey
@@ -330,16 +335,16 @@ h3 {
 }
 
 .socialMedia i {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #093824;
-    margin-left: .2em;
-    margin-bottom: 2em;
+    margin-left: .2rem;
+    margin-bottom: 2rem;
 }
 
 .end li{
     list-style-type: none;
     font-family: "titlefont";
-    margin-left: 60em;
+    margin-left: 60rem;
     color: whitesmoke;
 }
 
@@ -348,12 +353,12 @@ h3 {
 }
 
 .newsLetter { 
-    margin-top: 7em; 
+    margin-top: 7rem; 
 }
 
 .disclaimer {
     display: block;
-    margin-left: 20em;
+    margin-left: 20rem;
     font-family: Tangerine;
     color: whitesmoke;
 }
@@ -361,12 +366,16 @@ h3 {
 .runes {
     text-align: center;
     font-family: "nordicrunes";
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: #513b3c;
 }
 
 /* Palette: 
-
-
-
+olive green: #6f7c12
+darkest green: #093824
+second lightest green: #57cc99
+dark brown: #513b3c
+lightest green: #c7f9cc
+yellow: #ffdd4a
+blue: #6290c3
 */
