@@ -214,10 +214,6 @@ p {
     background-image: url('Images/leaves4.jpg');
 }
 
-.experiences {
-    background-image: url('Images/leaves4.jpg');
-}
-
 /*
 .blueSec li {
     font-family: Tangerine;
@@ -234,51 +230,62 @@ h3 {
 */
 
 .container {
-    height: 10rem;
     width: 80%;
-    margin: 5rem auto;
+    margin: 3rem auto 0; 
     display: flex;
-    gap: 3rem;
+    gap: 1rem;  
     flex-wrap: wrap;
 }
 
 .wonder {
     display: block;
-    margin-top: 5rem;
-    margin-left: 5.5rem;
+    text-align: center;
+    /* margin-top: 5rem;
+    margin-left: 5.5rem; */
     font-family: "titlefont";
     font-size: 2.5rem;
 
 }
 
+.experiences {
+    padding: 3.5rem 0;
+    background-color: #513b3c;
+    color:antiquewhite;
+}
+
+
 .experiences img {
     display: block;
-    height: 9rem;
-    width: 13rem;
+    width: 60%;
+    /* width: 13rem; */
     border-radius: 5px;
 }
 
 .experience {
     display: flex;
-    width: 40%;
-    color: #c7f9cc;
-    padding-left: 10rem;
+    width: 48%;
+    /* color: #c7f9cc; */
+    /* padding-left: 10rem; */
 }
 
-.experience, h3 {
-    padding-left: .7rem;
+.experience div {
+    margin-left: .7rem;
+}
+
+.experience h3 {
     font-family: "titlefont";
+    margin-bottom: 1rem;
 }
 
 .experience p {
     font-family: Tangerine;
-    color: #093824;
+    /* color: #093824; */
 }
 
 .events {
     font-family: "titlefont";
     display: block;
-    margin-left: 40%;
+    margin-left: 50%;
     margin-right: 35%;
     font-size: 1.3rem;
 }
