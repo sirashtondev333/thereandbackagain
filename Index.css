@@ -360,10 +360,25 @@ h3 {
     margin-right: auto;
     width: 52em;
     align-content: center;
+} */
+
+.soon {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
 }
-    */
+
+.almostend > div > div {
+    text-align: center;
+}
+
+.accomodations {
+    margin-top: 1rem;
+    text-align: center;
+}
 
 .eagle, .transport {
+    margin: 0 auto;
     height: 5rem;
     width: 5rem;
 }
