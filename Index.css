@@ -72,34 +72,51 @@ body {
     background: #a3f29e;
 }
 
-/* Why didn't the border work? Why is the flex barely doing anything? */
-.logo {
-    width: 10em;
-    height: 7em;
+.image {
+    text-align: center;
 }
 
+/* Why didn't the border work? Why is the flex barely doing anything? */
+.logo {
+    width: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.image p {
+    margin: 0;
+    padding: 0;
+}
+
+
 .topbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #a3f29e;
     background-image: url('Images/oldpaper.jpg');
 }
 
 .topbar span {
     font-family: "bilboBold";
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 button {
+    padding: 0.5rem 1rem;
     background-color: bisque;
     font-family: "titlefont";
     border: solid 2px orange;
-    margin-right: 2em;
+    margin-right: 2rem;
 }
 /*Make the area around the button tattered like the Ireland image, make it look like a piece of paper. 
 Maybe use a background image from a scroll or old paper. And then potentially pick a different font that looks inky, like calligraphy.*/
 
 input {
-    color: aliceblue;
+    height: 1.5rem;
+    width: 8rem;
+    color: #513b3c;
     font-family: "titlefont";
 }
 
