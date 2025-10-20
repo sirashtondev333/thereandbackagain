@@ -316,13 +316,13 @@ h3 {
     height: 1rem;
 }
 
-    .wood {
+    .journey {
     background-image: url(Images/wood.jpg);
     background: linear-gradient(#ffcc33, #ffcc33 );
     color: black;
 }
 
-.wood .plan {
+     .plan {
     display: block; 
     font-size: 3.5rem;
     font-family: "titlefont";
@@ -330,12 +330,12 @@ h3 {
     margin-right: 20%;
 }
 
-.wood h3 {
+.journey h3 {
     display: block;
     font-size: 1.5rem;
 }
 
-.wood img {
+.journey img {
     width: 12rem;
 }
 
