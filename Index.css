@@ -74,18 +74,13 @@ body {
 
 /* Why didn't the border work? Why is the flex barely doing anything? */
 .logo {
-    display: flex;
-    justify-content: end;
-    flex-direction: row;
     width: 10em;
     height: 7em;
-    border: solid 1px blueviolet;
 }
 
 .topbar {
     background-color: #a3f29e;
-    border: 1px solid red;
-    background-image: url('Images/oldpaper');
+    background-image: url('Images/oldpaper.jpg');
 }
 
 .topbar span {
@@ -169,6 +164,7 @@ p {
 }
 
 .slide {
+    border: solid 1px purple;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,6 +217,7 @@ h3 {
 */
 
 .container {
+    height: 10rem;
     width: 80%;
     margin: 5rem auto;
     display: flex;
@@ -269,16 +266,15 @@ h3 {
     font-size: 1.3rem;
 }
 
-.potatoes, .prancingPony, .fangorn, .hotel{
+.potatoes, .prancingPony, .fangorn, .hotel {
     width: 13rem;
     height: 11rem;
     border-radius: 5px;  
     /*margin-left: 30%;
     margin-right: 20%; */
-    justify-content: space-around;
-    align-items: center;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .icons {
@@ -320,6 +316,11 @@ h3 {
     align-content: center;
 }
     */
+
+.eagle, .transport {
+    height: 5rem;
+    width: 5rem;
+}
 
 .connect {
     font-family: "titlefont"; 
