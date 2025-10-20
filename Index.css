@@ -95,6 +95,7 @@ body {
     align-items: center;
     background-color: #a3f29e;
     background-image: url('Images/oldpaper.jpg');
+    padding: 1rem 0;
 }
 
 .topbar span {
