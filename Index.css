@@ -282,23 +282,33 @@ h3 {
     /* color: #093824; */
 }
 
-.events {
-    font-family: "titlefont";
-    display: block;
-    margin-left: 50%;
-    margin-right: 35%;
-    font-size: 1.3rem;
+.trending {
+    padding: 3.5rem 0;
 }
 
-.potatoes, .prancingPony, .fangorn, .hotel {
-    width: 13rem;
-    height: 11rem;
-    border-radius: 5px;  
-    /*margin-left: 30%;
-    margin-right: 20%; */
+.trending div {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.upcoming {
+    border: 1px solid violet;
+    width: 33%;
+    border-radius: 5px; 
+}
+
+.upcoming img {
+ margin: 0 auto;
+ width: 100%;
+}
+
+.events {
+    font-family: "titlefont";
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .icons {
