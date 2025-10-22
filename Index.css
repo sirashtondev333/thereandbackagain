@@ -94,7 +94,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #a3f29e;
-    background-image: url('Images/oldpaper.jpg');
+    background-image: url('Images/oldpaper2.jpg');
     padding: 1rem 0;
 }
 
@@ -400,6 +400,11 @@ h3 {
     color: #093824;
 }
 
+.horn {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
 .socialMedia {
     border-bottom: 1px solid #513b3c;
 }
@@ -410,7 +415,7 @@ h3 {
 
 .socialMedia i {
     font-size: 1.5rem;
-    color: #093824;
+    color: #2c2021;
     margin-left: .2rem;
     margin-bottom: 2rem;
 }
