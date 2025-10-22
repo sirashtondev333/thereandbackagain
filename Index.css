@@ -59,6 +59,16 @@
     src:url("Fonts/AlbertusMTStd.otf");
 }
 
+@font-face {
+    font-family: "aniron";
+    src: url("Fonts/aniron.ttf");
+}
+/* 
+@font-face {
+    font-family: "Albertus";
+    src: url("Fonts/ReynoldsChancery-Gq8O.ttf");
+} */
+
 
 * {
     box-sizing: border-box;
@@ -86,6 +96,7 @@ body {
 .image p {
     margin: 0;
     padding: 0;
+    font-family: 'aniron';
 }
 
 
@@ -107,7 +118,7 @@ body {
 button {
     padding: 0.5rem 1rem;
     background-color: bisque;
-    font-family: "titlefont";
+    font-family: "albertus";
     border: solid 2px orange;
     margin-right: 2rem;
 }
