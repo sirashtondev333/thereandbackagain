@@ -1,21 +1,21 @@
-@font-face { 
-        font-family: "titlefont";
-        src: url("Fonts/Ringbearer.ttf");
-    }
-
 @font-face {
-    font-family: "totalelvish";
-    src:url("Fonts/TengwarCursive.ttf");
+    font-family: "Albertus";
+    src:url("Fonts/AlbertusMTStd.otf");
 }
 
 @font-face {
-    font-family: "nordicRunes";
-    src:url("Fonts/AnglosaxonRunes.ttf");
+    font-family: "Alegreya";
+    src: url("Fonts/Alegreya/Alegreya-VariableFont_wght.ttf");
+} 
+
+@font-face {
+    font-family: "anirm";
+    src:url("Fonts/anirm___.ttf");
 }
 
 @font-face {
-    font-family: "elvishTwo";
-    src:url("Fonts/Elvish.ttf");
+    font-family: "Aniron";
+    src:url("Fonts/aniron.ttf");
 }
 
 @font-face {
@@ -33,15 +33,31 @@
     src:url("Fonts/BilboHandBold.ttf");
 }
 
-
 @font-face {
     font-family: "Dragonfire";
     src:url("Fonts/DragonFire-K7voy.ttf");
 }
 
+
 @font-face {
-    font-family: "Aniron";
-    src:url("Fonts/aniron.ttf");
+    font-family: "elvishTwo";
+    src:url("Fonts/Elvish.ttf");
+}
+
+
+@font-face { 
+        font-family: "titlefont";
+        src: url("Fonts/Ringbearer.ttf");
+    }
+
+@font-face {
+    font-family: "totalelvish";
+    src:url("Fonts/TengwarCursive.ttf");
+}
+
+@font-face {
+font-family: "kings";
+src: url("Fonts/Kings/");
 }
 
 @font-face {
@@ -50,28 +66,13 @@
 }
 
 @font-face {
+    font-family: "nordicRunes";
+    src:url("Fonts/AnglosaxonRunes.ttf");
+}
+
+@font-face {
     font-family: "ReynoldsChancery";
     src:url("Fonts/ReynoldsChancery-Gq8O.ttf");
-}
-
-@font-face {
-    font-family: "Albertus";
-    src:url("Fonts/AlbertusMTStd.otf");
-}
-
-@font-face {
-    font-family: "aniron";
-    src: url("Fonts/aniron.ttf");
-}
-
-@font-face {
-    font-family: "Alegreya";
-    src: url("Fonts/Alegreya/Alegreya-VariableFont_wght.ttf");
-} 
-
-@font-face {
-font-family: "kings";
-src: url("Fonts/Kings/");
 }
 
 @font-face {
@@ -499,6 +500,35 @@ h3 {
     font-size: 1.3rem;
     color: #513b3c;
 }
+
+.albertus {
+    font-family: "Albertus";
+}
+
+.alegreya {
+    font-family: "Alegreya";
+}
+
+.aniron {
+    font-family: "alegreya";
+}
+
+.anirm {
+    font-family: "anirm";
+}
+    <p class="anirm">anirm</p>
+    <p class="bilbohandbold">bilbohandbold</p>
+    <p class="dragonfire">dragonfire</p>
+    <p class="eaglelake">eaglelake</p>
+    <p class="hobbitonbrushhand">hobbitonbrushhand</p>
+    <p class="italiana">italiana</p>
+    <p class="kings">kings</p>
+    <p class="lora">lora</p>
+    <p class="marcellus">marcellus</p>
+    <p class="middleearth">middleearthaofm</p>
+    <p class="morrisromanblack">morrisromanblack</p>
+    <p class="reynoldschancery">reynoldschancery</p>
+    <p class="ringbearer"> ringbearer </p>
 
 /* Palette: 
 olive green: #6f7c12
