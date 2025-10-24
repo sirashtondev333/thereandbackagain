@@ -63,11 +63,11 @@
     font-family: "aniron";
     src: url("Fonts/aniron.ttf");
 }
-/* 
+
 @font-face {
-    font-family: "Albertus";
-    src: url("Fonts/ReynoldsChancery-Gq8O.ttf");
-} */
+    font-family: "Alegreya";
+    src: url("Fonts/Alegreya/Alegreya-VariableFont_wght.ttf");
+} 
 
 
 * {
@@ -446,10 +446,15 @@ h3 {
     margin-top: 7rem; 
 }
 
+.credits {
+    font-family: 'Alegreya';
+    font-size: .6rem;
+}
+
 .disclaimer {
-    display: block;
-    margin-left: 20rem;
-    font-family: Tangerine;
+    /* display: block;
+    margin-left: 20rem; */
+    text-align: center;
     color: whitesmoke;
 }
 
