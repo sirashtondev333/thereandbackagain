@@ -420,6 +420,10 @@ h3 {
     text-align: center;
 }
 
+.almostend h3 {
+    font-family: "Albertus";
+}
+
 .accomodations {
     margin-top: 1rem;
     text-align: center;
