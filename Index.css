@@ -44,20 +44,30 @@
     src:url("Fonts/Elvish.ttf");
 }
 
-
-@font-face { 
-        font-family: "titlefont";
-        src: url("Fonts/Ringbearer.ttf");
-    }
+@font-face {
+font-family: "Fondamento";
+src: url("Fonts/Fondamento/Fondamento-Regular.ttf");
+}
 
 @font-face {
-    font-family: "totalelvish";
-    src:url("Fonts/TengwarCursive.ttf");
+font-family: "italiana";
+src: url("Fonts/Italiana/Italiana-Regular.ttf");
 }
 
 @font-face {
 font-family: "kings";
 src: url("Fonts/Kings/");
+}
+
+@font-face {
+font-family: "Lora";
+src: url("Fonts/Lora/Lora-VariableFont_wght.ttf");
+}
+
+
+@font-face {
+font-family: "marcellus";
+src: url("Fonts/Marcellus/Marcellus-Regular.ttf");
 }
 
 @font-face {
@@ -75,24 +85,14 @@ src: url("Fonts/Kings/");
     src:url("Fonts/ReynoldsChancery-Gq8O.ttf");
 }
 
-@font-face {
-font-family: "italiana";
-src: url("Fonts/Italiana/Italiana-Regular.ttf");
-}
+@font-face { 
+        font-family: "titlefont";
+        src: url("Fonts/Ringbearer.ttf");
+    }
 
 @font-face {
-font-family: "Lora";
-src: url("Fonts/Lora/Lora-VariableFont_wght.ttf");
-}
-
-@font-face {
-font-family: "marcellus";
-src: url("Fonts/Marcellus/Marcellus-Regular.ttf");
-}
-
-@font-face {
-font-family: "Fondamento";
-src: url("Fonts/Fondamento/Fondamento-Regular.ttf");
+    font-family: "totalelvish";
+    src:url("Fonts/TengwarCursive.ttf");
 }
 
 
@@ -161,7 +161,7 @@ input {
 
 .heading, h1 {
    /* color: #5C4033; */
-    font-family: "bilboB";
+    font-family: "titlefont";
     font-size: 4em;
     /* position: absolute;
     margin-top: 3.5em; */
@@ -437,7 +437,12 @@ h3 {
 }
 
 .connect {
+text-align: center;
+}
+
+.connect span {
     font-family: "titlefont"; 
+    font-size: 2.5rem;
     color: #093824;
 }
 
@@ -446,17 +451,11 @@ h3 {
     width: 1.5rem;
 }
 
-.socialMedia {
-    border-bottom: 1px solid #513b3c;
-}
-
-.contact {
-    border-top: 1px solid #513b3c;
-}
 
 .socialMedia i {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #2c2021;
+    padding-top: .25rem;
     margin-left: .2rem;
     margin-bottom: 2rem;
 }
@@ -469,9 +468,9 @@ h3 {
 }
 
 .bilbohouse {
-    display: flex;
-    /* height: ;
-    width: ; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .connect {
